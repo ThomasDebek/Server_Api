@@ -4,5 +4,5 @@ class Rack::Attack
   end
 end
 
-Rails.application.config.middleware.user Rack::Attack
+Rails.application.config.middleware.use Rack::Attack
 
